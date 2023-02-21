@@ -1,0 +1,76 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.container>header img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    
+}
+.container>header .top-right{
+    width:300px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+}
+.container>header .top-right a{
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+}
+.container>header .top-right a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.container>header .company-info{
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+}
+.container>header .company-info h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    color: white;
+    font-size: 60px;
+    border-bottom: 1px dotted red;
+    text-shadow: 0 0 10px red;
+}
+.container>header .company-info h3{
+    margin: 0px;
+    padding: 0px;
+    font-variant: small-caps;
+    color: red;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.container>nav{
+    text-decoration: none;
+    line-height: 50px;
+    background: orange;
+    color: white;
+    text-align: center;
+    font-variant: small-caps; 
+}
+.container>nav>a{
+    text-decoration: none;
+    color: white;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}

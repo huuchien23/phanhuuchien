@@ -1,0 +1,180 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url(./image/Banner\ VT.jpg);
+    background-size: 100% 100%;
+    height:0px;
+    padding-bottom: 18%;
+    position: relative;
+   
+}
+.container>article{
+    height: 900px;
+    width: 50%;
+    background: white;
+    float: left;
+    margin: 0 10px 0 10px;
+    /* box-shadow: 0 0 5px gray; */
+    border: #13bfbf 1px solid;
+}
+.container>aside{
+    min-height:350px;
+    width: 24%;
+    background: white;
+    float: left;
+
+}
+.container>footer{
+    border-top: 5px double white;
+    line-height: 50px;
+    background:#13bfbf;
+    clear: both;
+    text-align: center;
+    /* font-variant: small-caps; */
+    color: white;
+    position: relative;
+}
+
+/* .map1 {
+    position: absolute;
+    right: 10%;
+    top: 990px;
+} */
+
+iframe[name=page]{
+    width: 100%;
+    min-height:900px;
+    border: #13bfbf 1px solid;
+}
+.vmenu{
+    padding: 0px;
+    margin: 10px;
+    list-style: none;
+    /* border-radius: 3px; */
+    box-shadow:0 0 2px gray;
+    border:  #13bfbf solid 1px ;
+}
+.vmenu a{
+    /* background: url(../Lab7/image/gif5.gif) no-repeat 10px center; */
+    display: block;
+    border-bottom: 1px dotted gray;
+    color: #13bfbf;
+    /* font-variant: small-caps; */
+     font-size: 16px;
+    text-decoration: none;
+    padding: 8px 30px 8px 10px;
+    
+}
+.vmenu a:hover{
+     /* background: url(../Lab7/image/gif6.gif) no-repeat 10px center; */
+     border-bottom: 1px dotted gray;
+     background-color: #13bfbf;
+     color:gray;
+     /* font-weight: bold; */
+}
+.chien ul li{
+    display: inline-block;
+    position: relative;
+}
+.chien ul li a{
+    display: block;
+}
+.chien ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color:#13bfbf;
+    text-align: center;
+    color: white;
+}
+.chien ul li a{
+    text-decoration: none;
+    /* font-variant: small-caps; */
+    font-size: larger;
+    color: white;
+    padding: 0px;
+    line-height: 40px;
+    font-weight: bold;
+   
+}
+.chien ul li a:hover{
+    color:white;
+    background-color:#5fdede;
+}
+.chien ul ul {
+    position: absolute;
+    display: none;
+    padding:0px;
+    margin: 0px;
+    list-style:none;
+    border-radius:3px;
+    width:230px ;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+    text-align: left;
+}
+.chien ul ul a{
+    display: block;
+    line-height: 30px;
+    color:#379e9e;
+    text-decoration: none;
+    /* font-variant: small-caps; */
+    font-size: larger;
+    padding: 0 10px;
+    border: 1px dotted gray ;
+}
+.chien ul li:hover ul {
+    display:flex;
+    flex-direction: column;
+}
+.chien ul ul a:hover{
+    background-color:#13bfbf;
+    color:white;
+}
+.title{
+    background-color: #13bfbf;
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+    color: white;
+    /* border-radius: 3px; */
+    /* box-shadow:0 0 2px gray */
+    
+}
+.chu-chay{
+    margin: 0px;
+    padding-top: 3px;
+  
+}
+.container>header .top-right{
+    width:300px;
+    height: 50px;
+    background-color: #13bfbf;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    color: white;
+}
+.container>header .top-right a{
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+}
+.container>header .top-right a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+/* .map1{
+    float: left;
+} */

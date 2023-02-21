@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    color: orange;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 6000;
+    text-align: center;
+    text-shadow: 5px 6px 7px green;
+}
+p{
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+}

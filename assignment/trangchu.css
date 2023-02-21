@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url(./image/HOCTAPBACok.png);
+    background-size: 100% 100%;
+    padding-bottom: 20%;
+}
+/* .container>nav{
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+    background-color:#13bfbf;
+    text-align: center;
+    color: white;
+} */
+.container>article>a{
+    text-decoration: none;
+    color:black;
+    padding: 0 10px;
+  
+   
+}
+.container>article>a:hover{
+    color: orange;
+}
+.container>article a{
+    color: #13bfbf;
+}
+.tieude{
+    background-color: #13bfbf;
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+    color: white;
+    text-align: center;
+  
+}
+img{
+    width: 250px;
+    height: 130px;
+    /* margin: 10px; */
+    margin: 10px;
+}
+.noidung{
+    padding: 0px;
+    margin: 3px;
+    color: #13bfbf;
+}
+.noidung:hover{
+    color: orange;
+}

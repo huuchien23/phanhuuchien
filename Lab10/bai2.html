@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai2t</title>
+    <link rel="stylesheet" href="./bai1.css">
+</head>
+<body>
+    <div class="form-group">
+        <label for="">Họ và tên</label>
+        <input type="text" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <fieldset>
+            <legend>Giới tính</legend> 
+            <label for=""><input type="radio" checked >Nam</label>
+            <label for=""><input type="radio" >Nữ</label>
+        </fieldset>
+    </div>
+
+    <div class="form-group">
+        <label for="">Ngày sinh</label><br>
+        <input type="date" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label for="">Điểm</label><br>
+        <input type="number" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label for="">Nghề nghiệp</label><br>
+        <input type="list" list="bai1" class="form-control">
+        <datalist id="bai1">
+            <option value="Giáo Viên"></option>
+            <option value="Công An"></option>
+            <option value="Kĩ Sư"></option>
+            <option value="Bác Sĩ"></option>
+            <option value="Diễn Viên"></option>
+        </datalist>
+    </div>
+
+    <div class="form-group">
+        <fieldset>
+            <legend>Sở Thích</legend>
+           <input type="checkbox">
+           <label for="">Thể Thao</label>
+
+           <input type="checkbox">
+           <label for="">Du lịch</label>
+
+           <input type="checkbox">
+           <label for="">Âm Nhạc</label>
+
+           <input type="checkbox">
+           <label for="">Ẩm Thực</label>
+        </fieldset>
+    </div>
+
+    <div class="form-group">
+        <label for="">Ghi chú</label><br>
+        <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+    </div>
+
+    <button class="form-button">Đăng kí</button>
+    <button class="form-button">Nhập lại</button>
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    
+}
+p.ghichu{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: rgb(238, 142, 8);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(195, 156, 67);
+}
+

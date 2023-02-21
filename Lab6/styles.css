@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url("../Lab6/image/anh-hoc-sinh.jpg");
+    background-size: 100% 100%;
+    height:0px;
+    padding-bottom: 25%;
+}
+.container>nav{
+    text-decoration: none;
+    line-height: 50px;
+    background: orange;
+    color: white;
+    text-align: center;
+    font-variant: small-caps; 
+}
+.container>nav>a{
+    text-decoration: none;
+    color: white;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.container>article{
+    min-height: 400px;
+    width: 75%;
+    background: white;
+    float: left;
+}
+.container>aside{
+    min-height: 400px;
+    width: 25%;
+    background: pink;
+    float: left;
+}
+.container>footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background:aqua;
+    clear: both;
+    text-align: center;
+    font-variant: small-caps;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+

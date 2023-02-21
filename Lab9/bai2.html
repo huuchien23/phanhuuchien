@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai3</title>
+</head>
+<body>
+    <form action="register.php"
+         method="post"
+         enctype="multipart/form-data"  >
+
+         <label for="">Họ Và Tên</label><br>
+         <input name="id" type="text">
+         <br>
+
+         <label for="">Giới Tính : </label><br>
+         <label for=""><input name="gender" type="radio" checked>Nam</label>
+         <label for=""><input name="gender" type="radio">Nữ</label>
+        <br>
+
+        <label for="">Quốc Tịch</label>
+        <select name="" id="">
+            <option value="">United States</option>
+            <option value="">Viet Nam</option>
+        </select>
+        <br>
+
+        <label for="">Sở Thích</label><br>
+        <label for=""><input name="hobby" type="checkbox">Thể thao</label>
+        <label for=""><input name="hobby" type="checkbox" checked>Du lịch</label>
+        <label for=""><input name="hobby" type="checkbox">Âm nhạc</label>
+        <label for=""><input name="hobby" type="checkbox">Ẩm thực</label>
+        <br>
+
+        <label for="">Ghi chú</label><br>
+        <textarea name="ghichu" id="" cols="30" rows="10"></textarea>
+        <br>
+
+        <button type="submmit">Đăng ký</button>
+        <button type="submmit">Nhập lại</button>
+        
+    </form>
+
+</body>
+</html>

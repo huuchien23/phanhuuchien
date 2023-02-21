@@ -1,0 +1,26 @@
+
+p.doan1{
+    color: red;
+}
+p.doan2{
+    color: blue;
+}
+p.doan3{
+    color: green;
+}
+h2{
+    text-align: center;
+    font-size: 100px;
+    color:white;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px red;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 35px;
+    word-spacing: 15px;
+}

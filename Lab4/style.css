@@ -1,0 +1,22 @@
+p.doan1{
+    color: red;
+}
+p.doan2{
+    color: blue;
+}
+p.doan3{
+    color: green;
+}
+p{
+    font-variant: small-caps;
+    font-size: 20px;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+h2{
+    color: white;
+    text-shadow: 0 0 5px red;
+}
+body{
+    text-align: center;
+}
